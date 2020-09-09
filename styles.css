@@ -1,0 +1,29 @@
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parallaxList {
+  flex-grow: 2;
+  width: 200%;
+}
+
+.parallax1 {
+  background-image: url("https://wallpaperplay.com/walls/full/3/6/f/136445.jpg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.parallax2 {
+  background-image: url("https://images7.alphacoders.com/940/940633.jpg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: calc(center - 100px);
+}
